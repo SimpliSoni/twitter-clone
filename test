@@ -1,0 +1,8 @@
+{
+    "_id": ObjectId,
+    "user_id": "karan_soni",
+    "content": "Hello World!",
+    "timestamp": "2025-04-14T14:22:00",
+    "likes": ["user1_id", "user2_id"]
+  }
+  

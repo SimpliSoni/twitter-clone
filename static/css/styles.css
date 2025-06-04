@@ -1,0 +1,82 @@
+/* Custom styles for Twitter Clone */
+
+/* Body styling */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+.navbar {
+    border-bottom: 1px solid #e1e8ed;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+/* Tweet form */
+textarea {
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Tweet styling */
+.tweet-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Like button animation */
+.btn-danger i.fa-heart {
+    animation: heartbeat 1s ease-in-out;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Profile page */
+.profile-header {
+    background-color: #1da1f2;
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-3, .col-md-6, .col-md-4, .col-md-8 {
+        margin-bottom: 1.5rem;
+    }
+}
