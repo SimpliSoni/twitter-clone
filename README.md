@@ -1,6 +1,8 @@
 # Twitter Clone  
 
 A simple Twitter-like web application built using Flask and MongoDB.  
+![Home](https://github.com/user-attachments/assets/5d430d26-4a2b-49f3-b890-4a08f7c997cf)
+
 
 ## Tech Stack  
 
