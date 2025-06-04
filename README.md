@@ -15,20 +15,19 @@ A simple Twitter-like web application built using Flask and MongoDB.
 
 ```
 /twitter-clone
-├── app.py               # Main Flask application, contains routes and logic
-├── requirements.txt     # Python dependencies
-├── README.md            # Project description
-├── /templates           # HTML files for web pages
-│   ├── base.html        # Base layout template
-│   ├── index.html       # Main feed/homepage
-│   ├── login.html       # Login page
-│   ├── profile.html     # User profile page
-│   └── register.html    # Registration page
-└── /static              # Static assets
+├── app.py                
+├── README.md            
+├── /templates           
+│   ├── base.html        
+│   ├── index.html       
+│   ├── login.html       
+│   ├── profile.html     
+│   └── register.html    
+└── /static              
     ├── /css
-    │   └── styles.css   # Custom CSS rules
+    │   └── styles.css   
     └── /js
-        └── scripts.js   # Custom JavaScript (e.g., tweet character counter)
+        └── scripts.js   
 ```
 
 ## Features  
